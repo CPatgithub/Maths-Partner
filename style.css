@@ -1,0 +1,155 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    cursor: pointer;
+    color: dodgerblue;
+  }
+
+  #slogan {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: peru;
+    text-align: center;
+    margin-top: 2.5%;
+  }
+  
+  /* Form styles */
+  .div{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* item is created through js */
+  .item {
+    margin: 20px;
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  /* delete icon created through js */
+  .delete-Icon{
+    font-size: 3rem;
+    float: right;
+    cursor: pointer;
+  }
+
+  /* question & ans are two "p" tag, created through JavaScript */
+  .question,.ans{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+  }
+  
+  select {
+    width: 150px;
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+  
+  button {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+
+
+  /* Below CSS is for solution container: Created through Js
+  #Problem-input {
+    width: 800px;
+    height: 200px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border: 1px solid lightgrey;
+  }
+
+  #Problem-input::placeholder {
+    position: absolute;
+    top: 5;
+    left: 5;
+    font-size: 12px;
+    color: gray;
+  }
+
+  #Problem-input {
+    background-image: url('https://static.thenounproject.com/png/2747965-200.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 150px; 
+    padding-left: 50px;
+    padding-bottom: 50px;
+    background-size: 05%;
+    background-position: bottom right;
+    cursor: pointer;
+  } */
+
+  #saved-solution-button {
+    margin: 0 auto; /* Add auto margin to center horizontally */
+    display: block; /* Add block display to center vertically */
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 600px) {
+    input[type="text"],
+    select {
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    #saved-solution-button {
+      margin-left: auto; 
+      margin-right: auto;
+      margin-top: 10px;
+    }
+    
+    /* #Problem-input {
+          width: 100%;
+    } */
+      
+  }
+  
