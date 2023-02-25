@@ -82,6 +82,8 @@ function renderApi(data) {
   item.appendChild(span);
 
   // item element inserted inside the content div [HTML Line:43]
+  // This will insert the new element before the first child of the content div, which will make it the first element in the div.
+  // The latest result will be seen first
   content.insertBefore(item, content.firstChild); // Showing item tag on UI
 
   // In API response object adding uuid through spread operator by creating new object
