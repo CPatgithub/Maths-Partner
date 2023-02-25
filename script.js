@@ -82,7 +82,7 @@ function renderApi(data) {
   item.appendChild(span);
 
   // item element inserted inside the content div [HTML Line:43]
-  content.appendChild(item); // Showing item tag on UI
+  content.insertBefore(item, content.firstChild); // Showing item tag on UI
 
   // In API response object adding uuid through spread operator by creating new object
   let obj = {
